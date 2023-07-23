@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* --------------------basic settings--------------------- */
+
+/* html {} */
+
+body{
+  height:100%;
+  margin:0 auto;
+  background-color:var(--default-bg-color);
+  color:var(--default-color);
+  font-family:var(--default-font);
+  font-size:var(--default-fontsize);
+  -webkit-font-smoothing:antialiased;
+  line-height:var(--default-lineheight);
+  text-rendering:optimizelegibility;
+}
+
+
+/* -----heading----- */
+:where(
+h1,
+h2,
+h3,
+h4,
+h5,
+h6
+){
+  margin:0;
+  font-size:var(--default-fontsize);
+}
+
+/* -----paragraph----- */
+:where(p){
+  margin:0;
+}
+
+/* -----lists----- */
+:where(
+ul,
+ol,
+li,
+dl,
+dt,
+dd
+){
+  margin:0;
+  list-style:none;
+}
+
+/* :where(dl){} */
+
+:where(dt){
+  font-weight:bold;
+}
+
+/* -----table----- */
+:where(table){
+  border-spacing:0;
+  border-collapse:separate;
+}
+
+/* -----horizontal line----- */
+
+/* :where(hr){} */
+
+/* -----quote----- */
+
+/* :where(blockquote, q){} */
+
+/* -----anchor----- */
+:where(a){
+  color:var(--default-link-color);
+  text-decoration:underline;
+
+
+
+  /* &:hover {
+    opacity: var(--opacity);
+    text-decoration: none;
+  } */
+
+  /* &:active{} */
+
+  /* &:visited{} */
+}
+
+/* -----strong/emphasis----- */
+:where(strong){
+  font-weight:bold;
+}
+
+:where(em){
+  font-style:bold;
+}
+
+/* :where(pre){} */
+
+/* -----small----- */
+
+/* :where(small) {
+  font-size: var(--12px);
+} */
+
+/* -----address----- */
+:where(address){
+  font-style:normal;
+}
+
+/* -----image----- */
+:where(img){
+  display:block;
+  width:100%;
+  height:auto;
+  line-height:1;
+}
+
+/* -----media----- */
+:where(
+embed,
+iframe,
+object,
+video
+){
+  max-width:100%;
+}
+
+/* -----form parts----- */
+
+/* label{} */
+:where(
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input[type="search"],
+input[type="checkbox"],
+input[type="radio"],
+input[type="submit"],
+input[type="image"],
+input[type="button"],
+textarea,
+select
+){
+  font-family:var(--fontfamily);
+  font-size:var(--default-fontsize);
+  line-height:var(--default-lineheight);
+  vertical-align:middle;
+}

@@ -1,0 +1,18 @@
+{
+  "extends": [
+    "stylelint-config-standard",
+    "stylelint-config-recommended-scss",
+    "stylelint-config-property-sort-order-smacss"
+  ],
+  "rules": {
+    "indentation": 2,
+    "color-no-invalid-hex": true,
+    "selector-max-id": 0,
+    "custom-property-pattern": false,
+    "block-opening-brace-newline-after": "always",
+    "block-closing-brace-newline-before": "always",
+    "declaration-colon-space-after": null,
+    "block-opening-brace-space-before": null,
+    "block-opening-brace-space-after": null
+  }
+}

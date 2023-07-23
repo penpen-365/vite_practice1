@@ -1,0 +1,56 @@
+/* ===================  Variables =================== */
+
+/* -------- media query -------- */
+
+/* portrait */
+@custom-media --tablet-view (min-width: 768px);
+
+/* landscape */
+@custom-media --pc-view (min-width: 1530px);
+
+:root{/* -------- font -------- */
+  --12px:0.750rem;
+  --14px:0.875rem;
+  --15px:0.9375rem;
+  --18px:1.125rem;
+  --20px:1.25rem;
+  --36px:2.25rem;
+  --50px:3.125rem;
+  --90px:5.625rem;
+  --default-font:roboto, meiryo, helvetica, sans-serif;
+  --default-fontsize:var(--15px);
+  --default-lineheight:(18 / 15);
+
+  /* -------- color -------- */
+  --theme-color1:#5e3db3;
+  --theme-color2:#090c35;
+  --theme-color3:#f5f4f9;
+  --theme-color4:#e7e7e7;
+  --theme-color5:#c2c2c2;
+  --default-color:#000;
+  --default-link-color:#5900ff;
+
+  /* --dedault-border-color */
+  --default-bg-color:#f2f2f2;
+
+  /* -------- size -------- */
+  --tablet-width:768px;
+  --pc-width:1530px;
+  --base-margin:10px;
+
+  /* --line-padding: calc(var(--default-lineheight - 1) / 2 + em); */
+
+  /* --line-margin: calc((var(--default-fontsize) * var(--default-lineheight) - var(--default-fontsize)) / 2); */
+  --opacity:0.75;
+
+  /* -------- responsive -------- */
+
+  /* @media (--tablet-view) {
+    --default-fontsize: var(--18px);
+    --default-lineheight: (28 / 18);
+
+    --line-margin: calc((var(--default-fontsize) * var(--default-lineheight) - var(--default-fontsize)) / 2);
+  } */
+
+  /* @media (--pc-view) {} */
+}
