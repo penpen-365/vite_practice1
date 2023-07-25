@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
+/* --------------------import--------------------- */
 @import url("/assets/css/vendor/_sanitize.css");
 @import url("/assets/css/global/_base.css");
 @import url("/assets/css/global/_stracture.css");
 @import url("@glidejs/glide/dist/css/glide.core.min.css");
 @import url("@glidejs/glide/dist/css/glide.theme.min.css");
+
+
+/* --------------------page styles--------------------- */

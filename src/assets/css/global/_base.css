@@ -18,7 +18,7 @@ body{
 
 
 /* -----heading----- */
-:where(h1,h2,h3,h4,h5,h6){
+:where(h1, h2, h3, h4, h5, h6){
   margin: 0;
   font-size: var(--default-fontsize);
 }
@@ -29,7 +29,7 @@ body{
 }
 
 /* -----lists----- */
-:where(ul,ol,li,dl,dt,dd){
+:where(ul, ol, li, dl, dt, dd){
   margin: 0;
   list-style: none;
 }
@@ -102,14 +102,14 @@ body{
 }
 
 /* -----media----- */
-:where(embed,iframe,object,video){
+:where(embed, iframe, object, video){
   max-width: 100%;
 }
 
 /* -----form parts----- */
 
 /* label{} */
-:where(input[type="text"],input[type="tel"],input[type="email"],input[type="password"],input[type="search"],input[type="checkbox"],input[type="radio"],input[type="submit"],input[type="image"],input[type="button"],textarea,select){
+:where(input[type="text"], input[type="tel"], input[type="email"], input[type="password"], input[type="search"], input[type="checkbox"], input[type="radio"], input[type="submit"], input[type="image"], input[type="button"], textarea, select){
   font-family: var(--fontfamily);
   font-size: var(--default-fontsize);
   line-height: var(--default-lineheight);
