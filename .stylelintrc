@@ -8,11 +8,13 @@
     "indentation": 2,
     "color-no-invalid-hex": true,
     "selector-max-id": 0,
-    "custom-property-pattern": false,
-    "block-opening-brace-newline-after": "always",
+    "custom-property-pattern": null,
+    "declaration-colon-space-before": "never",
+    "declaration-colon-space-after": "always",
+    "block-opening-brace-space-before": "never",
+    "block-opening-brace-space-after": null,
+    "block-opening-brace-newline-after": "never",
     "block-closing-brace-newline-before": "always",
-    "declaration-colon-space-after": null,
-    "block-opening-brace-space-before": null,
-    "block-opening-brace-space-after": null
+    "selector-pseudo-element-colon-notation": "double"
   }
 }

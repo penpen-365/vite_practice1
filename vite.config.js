@@ -82,7 +82,7 @@ export default defineConfig({
       build:false,
       fix: true,
       include: path.resolve(input_dir, "**/*.css"),
-      exclude: ["node_modules", "virtual", "dist"],
+      exclude: ["node_modules", "virtual", "dist", "vendor"],
       cache: true,
       chokidar: true,
       lintOnStart: true,
