@@ -15,10 +15,10 @@ export default {
     }),
     nested(),
     calc(),
+    autoprefixer(),
     customMedia(),
     customProperties({
-      preserve: true,
+      preserve: false,
     }),
-    autoprefixer(),
   ],
 };

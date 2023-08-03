@@ -2,9 +2,12 @@
 
 /* --------------------basic settings--------------------- */
 
-/* html {} */
+html{
+  width: 100%;
+}
 
 body{
+  width: 100%;
   height: 100%;
   margin: 0 auto;
   background-color: var(--default-bg-color);
@@ -31,6 +34,7 @@ body{
 /* -----lists----- */
 :where(ul, ol, li, dl, dt, dd){
   margin: 0;
+  padding: 0;
   list-style: none;
 }
 

@@ -9,6 +9,7 @@
     "color-no-invalid-hex": true,
     "selector-max-id": 0,
     "custom-property-pattern": null,
+    "selector-class-pattern": null,
     "declaration-colon-space-before": "never",
     "declaration-colon-space-after": "always",
     "block-opening-brace-space-before": "never",
