@@ -8,17 +8,19 @@ import globalData from "@csstools/postcss-global-data";
 
 export default {
   plugins: [
+    nested(),
+    autoprefixer(),
     globalData({
       files: [
         "src/assets/css/data/_variables.css",
       ],
     }),
-    nested(),
-    calc(),
-    autoprefixer(),
-    customMedia(),
+    customMedia({
+      preserve: false,
+    }),
     customProperties({
       preserve: false,
     }),
+    calc(),
   ],
 };

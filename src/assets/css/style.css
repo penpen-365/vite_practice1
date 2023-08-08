@@ -89,18 +89,66 @@
         left: 52px;
         width: 232px;
         height: 233px;
-        background: url("/assets/img/icon_bg_deco2.svg") no-repeat center center / contain
+        background: url("/assets/img/icon_bg_deco2.svg") no-repeat cen˜ter center / contain
       }
     }
   }
 
   @media (--tablet-view){
-    /* &__heading{} */
+    position: relative;
+    padding-top: 24px;
 
+    &__heading{
+      width: 45%;
+      margin-left: auto;
+      font-size: var(--90px);
+    }
+
+
+    &__figure{
+      position: absolute;
+      top: 35px;
+      left: 0;
+      width: 678px;
+      transform: none;
+
+      &::before{
+        display: none;
+      }
+    }
 
     &__contents{
       & .bullets{
         display: none;
+      }
+    }
+
+    &--players{
+      padding-top: 124px;
+
+      & .featureBlock__heading{
+        margin-right: auto;
+        margin-left: 0;
+      }
+
+      & .featureBlock__figure{
+        top: 0;
+        right: 0;
+        left: auto;
+        width: 991px;
+        transform: none;
+
+        &::before{
+          display: none;
+        }
+      }
+
+      & .featureList li{
+        & .featureList__title,
+        & p{
+          margin-right: auto;
+          margin-left: 0;
+        }
       }
     }
   }
@@ -183,5 +231,15 @@
     display: block;
     overflow-x: auto;
     scroll-snap-type: none;
+
+    & li{
+      min-height: 0;
+    }
+
+    &__title,
+    & p{
+      width: 45%;
+      margin-left: auto;
+    }
   }
 }

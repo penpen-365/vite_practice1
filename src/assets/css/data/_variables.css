@@ -39,18 +39,12 @@
   --pc-width: 1530px;
   --base-margin: 10px;
   --default-horizonal-space: 18px;
-
-  /* --line-padding: calc(var(--default-lineheight - 1) / 2 + em); */
-
-  /* --line-margin: calc((var(--default-fontsize) * var(--default-lineheight) - var(--default-fontsize)) / 2); */
   --opacity: 0.75;
 
   /* -------- responsive -------- */
   @media (--tablet-view){
     --default-fontsize: var(--18px);
     --default-lineheight: calc(28 / 18);
-
-    /* --line-margin: calc((var(--default-fontsize) * var(--default-lineheight) - var(--default-fontsize)) / 2); */
   }
 
   @media (--pc-view){
