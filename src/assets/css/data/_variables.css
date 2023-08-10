@@ -8,7 +8,8 @@
 /* landscape */
 @custom-media --pc-view (min-width: 1530px);
 
-:root{ /* -------- font -------- */
+:root{
+  /* -------- font -------- */
   --12px: 0.750rem;
   --14px: 0.875rem;
   --15px: 0.9375rem;

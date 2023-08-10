@@ -79,7 +79,6 @@ export default defineConfig({
       include: path.resolve(input_dir, "**/*.js"),
     }),
     stylelint({
-      build:false,
       fix: true,
       include: path.resolve(input_dir, "**/*.css"),
       exclude: ["node_modules", "virtual", "dist", "vendor"],
